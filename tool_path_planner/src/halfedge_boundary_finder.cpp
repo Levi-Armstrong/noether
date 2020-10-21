@@ -27,6 +27,9 @@
 #include <pcl/PointIndices.h>
 #include <pcl/kdtree/kdtree_flann.h>
 #include <vtkParametricSpline.h>
+#include <vtkShadowMapPass.h>
+#include <vtkSmartPointer.h>
+#include <vtkPoints.h>
 #include <console_bridge/console.h>
 #include <noether_conversions/noether_conversions.h>
 #include <tool_path_planner/half_edge_boundary_finder.h>

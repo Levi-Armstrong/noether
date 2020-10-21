@@ -19,6 +19,8 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
     FilteringConfig.msg
+    PlaneSlicerRasterPathGeneratorConfig.msg
+    RasterPathGeneratorConfig.msg
     SegmentationConfig.msg
     ToolPathConfig.msg
     ToolRasterPath.msg

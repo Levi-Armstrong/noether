@@ -6,6 +6,7 @@
 #include <thread>
 #include <tool_path_planner/utilities.h>
 #include <tool_path_planner/raster_path_generator.h>
+#include <tool_path_planner/plane_slicer_raster_generator.h>
 
 
 static const std::string GENERATE_TOOL_PATHS_ACTION = "generate_tool_paths";
